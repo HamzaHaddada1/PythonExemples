@@ -20,7 +20,8 @@ sheet1.write(0,0,'ZIP')
 sheet1.write(0,1,'Lat')
 sheet1.write(0,2,'Lng')
 sleep_time=0
-keys=['AIzaSyBNojXzHTFGUzsIBEai07xDpuz2SZj9cVY','AIzaSyAnvsMLxz0_QVbKuMyOqfWt7zjL72zZzx8','AIzaSyCXYF8Wjx4Cu87sQyGi6pKSqEbvELj3Mxg','AIzaSyCwxq-Vj8PUnBKNksWBp6k_hSPvvToFQpU']
+#key1 , key2 , key3 ,key4 are api keys
+keys=['key1','key2','key3','key4']
 num_key=0
 while i<=10000:
 	x=int(sheet.cell_value(i,0))
